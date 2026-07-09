@@ -23,9 +23,9 @@ import {
   SiPostman,
   SiIntellijidea,
   SiCanva,
-  DiPhotoshop,
-  DiVisualstudio,
 } from "react-icons/si";
+
+import {DiVisualstudio, DiPhotoshop}from "react-icons/di";
 
 const programmingSkills = [
   { name: "C", icon: <FaCode /> },
