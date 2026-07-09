@@ -75,7 +75,6 @@ const developerTools = [
   { name: "GitHub", icon: <FaGithub /> },
   { name: "VS Code", icon: <DiVisualstudio /> },
   { name: "IntelliJ IDEA", icon: <SiIntellijidea /> },
-  { name: "Postman", icon: <SiPostman /> },
   { name: "Microsoft Office", icon: <FaMicrosoft /> },
 ];
 
