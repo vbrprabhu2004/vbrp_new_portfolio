@@ -29,10 +29,6 @@ const interests = [
     name: "Full Stack Development",
     icon: <FaLaptopCode size={28} />,
   },
-  {
-    name: "Playing Basketball",
-    icon: <FaBasketballBall size={28} />,
-  },
 ];
 
 function Interests() {
