@@ -20,12 +20,11 @@ import {
   SiMysql,
   SiTailwindcss,
   SiApachekafka,
-  SiGrpc,
   SiPostman,
   SiIntellijidea,
   SiCanva,
-  SiAdobephotoshop,
-  SiVisualstudiocode,
+  DiPhotoshop,
+  DiVisualstudio,
 } from "react-icons/si";
 
 const programmingSkills = [
@@ -45,7 +44,7 @@ const backendSkills = [
   { name: "PostgreSQL", icon: <SiPostgresql /> },
   { name: "MySQL", icon: <SiMysql /> },
   { name: "Apache Kafka", icon: <SiApachekafka /> },
-  { name: "gRPC", icon: <SiGrpc /> },
+  { name: "gRPC", icon: "📡" },
   { name: "REST APIs", icon: "🔗" },
   { name: "Protocol Buffers", icon: "📦" },
   { name: "Microservices", icon: "⚙️" },
@@ -74,14 +73,14 @@ const aiSkills = [
 const developerTools = [
   { name: "Git", icon: <FaGitAlt /> },
   { name: "GitHub", icon: <FaGithub /> },
-  { name: "VS Code", icon: <SiVisualstudiocode /> },
+  { name: "VS Code", icon: <DiVisualstudio /> },
   { name: "IntelliJ IDEA", icon: <SiIntellijidea /> },
   { name: "Postman", icon: <SiPostman /> },
   { name: "Microsoft Office", icon: <FaMicrosoft /> },
 ];
 
 const designTools = [
-  { name: "Adobe Photoshop", icon: <SiAdobephotoshop /> },
+  { name: "Adobe Photoshop", icon: <DiPhotoshop /> },
   { name: "Canva", icon: <SiCanva /> },
   { name: "Unity3D", icon: "🎮" },
   { name: "Kinemaster", icon: "🎬" },
