@@ -88,7 +88,7 @@ const designTools = [
 function SkillCategory({ title, skills }) {
   return (
     <div>
-      <h3 className="text-2xl font-semibold text-indigo-400 mb-6">
+      <h3 className="text-2xl font-semibold text-orange-400 mb-6">
         {title}
       </h3>
 
@@ -97,9 +97,9 @@ function SkillCategory({ title, skills }) {
           <motion.div
             key={index}
             whileHover={{ scale: 1.07 }}
-            className="bg-[#111827] border border-gray-800 rounded-xl p-5 flex flex-col items-center gap-2 hover:border-indigo-500 hover:shadow-indigo-500/20 hover:shadow-lg transition duration-300"
+            className="bg-[#111827] border border-gray-800 rounded-xl p-5 flex flex-col items-center gap-2 hover:border-orange-500 hover:shadow-orange-500/20 hover:shadow-lg transition duration-300"
           >
-            <div className="text-indigo-400 text-2xl">
+            <div className="text-orange-400 text-2xl">
               {skill.icon}
             </div>
 
@@ -125,7 +125,7 @@ function Skills() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-indigo-500 mb-14"
+          className="text-4xl font-bold text-orange-500 mb-14"
         >
           Skills
         </motion.h2>
