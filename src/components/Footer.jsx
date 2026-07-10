@@ -10,7 +10,7 @@ function Footer() {
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
             Built by,<br />
             <span className="text-orange-500">
-              Ramanath Prabhu V B
+              Ramanath
             </span>
           </h1>
 
