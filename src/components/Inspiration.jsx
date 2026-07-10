@@ -3,7 +3,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const inspirations = [
   {
-    name: "Mario Puzo (The Godfather, 1969)",
+    name: "Mario Puzo (The Godfather, 1972)",
     quote: "A man who doesn't spend time with his family can never be a real man.",
     note:
       "No achievement is complete without the people who stand by you. Family keeps me grounded and reminds me of what truly matters.",
