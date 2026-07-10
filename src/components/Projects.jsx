@@ -69,7 +69,7 @@ function Projects() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-indigo-500 mb-14"
+          className="text-4xl font-bold text-orange-500 mb-14"
         >
           Projects
         </motion.h2>
@@ -80,7 +80,7 @@ function Projects() {
             <motion.div
               key={index}
               whileHover={{ scale: 1.03 }}
-              className="bg-[#111827] border border-gray-800 rounded-xl overflow-hidden shadow-md hover:border-indigo-500 hover:shadow-indigo-500/20 hover:shadow-lg transition duration-300"
+              className="bg-[#111827] border border-gray-800 rounded-xl overflow-hidden shadow-md hover:border-orange-500 hover:shadow-orange-500/20 hover:shadow-lg transition duration-300"
             >
 
               {project.image && (
@@ -121,7 +121,7 @@ function Projects() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-gray-300 hover:text-indigo-400"
+                      className="flex items-center gap-2 text-gray-300 hover:text-orange-400"
                     >
                       <FaGithub />
                       GitHub
@@ -133,7 +133,7 @@ function Projects() {
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-indigo-400 hover:underline"
+                      className="flex items-center gap-2 text-orange-400 hover:underline"
                     >
                       <FaExternalLinkAlt />
                       Live Demo
