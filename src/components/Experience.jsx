@@ -40,13 +40,13 @@ function Experience() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-indigo-500 mb-16"
+          className="text-4xl font-bold text-orange-500 mb-16"
         >
           Experience
         </motion.h2>
 
         {/* Timeline */}
-        <div className="relative border-l-2 border-indigo-600 ml-6">
+        <div className="relative border-l-2 border-orange-600 ml-6">
 
           {experiences.map((exp, index) => (
             <motion.div
@@ -61,12 +61,12 @@ function Experience() {
             >
 
               {/* Timeline Circle */}
-              <div className="absolute -left-[60px] w-12 h-12 rounded-full bg-indigo-600 flex items-center justify-center border-4 border-[#0b0f19]">
+              <div className="absolute -left-[60px] w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center border-4 border-[#0b0f19]">
                 {exp.icon}
               </div>
 
               {/* Card */}
-              <div className="bg-[#111827] border border-gray-800 rounded-2xl p-6 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/20 transition duration-300">
+              <div className="bg-[#111827] border border-gray-800 rounded-2xl p-6 hover:border-orange-500 hover:shadow-lg hover:shadow-orange-500/20 transition duration-300">
 
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
 
@@ -86,7 +86,7 @@ function Experience() {
                       {exp.role}
                     </h3>
 
-                    <p className="text-indigo-400 mt-1">
+                    <p className="text-orange-400 mt-1">
                       {exp.company}
                     </p>
 
