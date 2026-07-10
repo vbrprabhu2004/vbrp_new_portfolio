@@ -1,10 +1,21 @@
 import { motion } from "framer-motion";
 import { FaBriefcase } from "react-icons/fa";
 
+import deloitteLogo from "../assets/projects/deloitte.jpg";
 import ZentropyLogo from "../assets/projects/zentropy.jpg";
 import nicLogo from "../assets/projects/nic.jpg";
 
 const experiences = [
+  {
+    role: "Analyst",
+    company: "Deloitte US India",
+    duration: "Nov 2026 – Present",
+    location: "Hyderabad, Telangana, India",
+    //description:
+    //  "",
+    logo: deloitteLogo,
+    icon: <FaBriefcase size={22} />,
+  },
   {
     role: "Member Technical Intern",
     company: "Zentropy Technologies",
