@@ -18,7 +18,7 @@ function Hero() {
             className="text-5xl md:text-7xl font-bold"
           >
             Hi, I'm{" "}
-            <span className="text-indigo-500">
+            <span className="text-orange-500">
               Ramanath Prabhu V B
             </span>
           </motion.h1>
@@ -40,7 +40,7 @@ function Hero() {
           >
             <a
               href="#projects"
-              className="px-6 py-3 bg-indigo-500 rounded-lg hover:bg-indigo-600 transition"
+              className="px-6 py-3 bg-orange-500 rounded-lg hover:bg-orange-600 transition"
             >
               View Projects
             </a>
@@ -48,7 +48,7 @@ function Hero() {
             <a
               href="/VBRP Resume 6.0 1.pdf"
               download
-              className="px-6 py-3 border border-gray-500 rounded-lg hover:border-indigo-400 transition"
+              className="px-6 py-3 border border-gray-500 rounded-lg hover:border-orange-400 transition"
             >
               Download Resume
             </a>
@@ -65,7 +65,7 @@ function Hero() {
           <img
             src={vbrp}
             alt="Ramanath"
-            className="w-72 h-72 object-cover rounded-full border-4 border-indigo-500 shadow-lg"
+            className="w-72 h-72 object-cover rounded-full border-4 border-orange-500 shadow-lg"
           />
         </motion.div>
 
