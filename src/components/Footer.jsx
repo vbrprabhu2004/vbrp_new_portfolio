@@ -9,7 +9,7 @@ function Footer() {
         <div>
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
             Built by,<br />
-            <span className="text-indigo-500">
+            <span className="text-orange-500">
               Ramanath Prabhu V B
             </span>
           </h1>
@@ -26,7 +26,7 @@ function Footer() {
               href="https://mail.google.com/mail/?view=cm&fs=1&to=vbrprabhu2004@gmail.com&su=Opportunity%20from%20your%20portfolio"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-indigo-500 transition"
+              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-orange-500 transition"
             >
               <FaEnvelope /> Email
             </a>
@@ -35,7 +35,7 @@ function Footer() {
               href="http://www.linkedin.com/in/ramanathprabhu-vb"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-indigo-500 transition"
+              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-orange-500 transition"
             >
               <FaLinkedin /> LinkedIn
             </a>
@@ -44,7 +44,7 @@ function Footer() {
               href="https://github.com/vbrprabhu2004"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-indigo-500 transition"
+              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-orange-500 transition"
             >
               <FaGithub /> GitHub
             </a>
@@ -53,7 +53,7 @@ function Footer() {
               href="https://www.instagram.com/ramanath_prabhu_/"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-indigo-500 transition"
+              className="border border-gray-700 px-4 py-2 rounded-full flex items-center gap-2 hover:border-orange-500 transition"
             >
               <FaInstagram /> Instagram
             </a>
@@ -70,19 +70,19 @@ function Footer() {
 
           <div className="flex gap-6 text-gray-400 text-sm">
 
-            <a href="#about" className="hover:text-indigo-400">
+            <a href="#about" className="hover:text-orange-400">
               About
             </a>
 
-            <a href="#skills" className="hover:text-indigo-400">
+            <a href="#skills" className="hover:text-orange-400">
               Skills
             </a>
 
-            <a href="#projects" className="hover:text-indigo-400">
+            <a href="#projects" className="hover:text-orange-400">
               Projects
             </a>
 
-            <a href="#experience" className="hover:text-indigo-400">
+            <a href="#experience" className="hover:text-orange-400">
               Experience
             </a>
 
@@ -97,7 +97,7 @@ function Footer() {
 
             <p className="mt-2">
               Designed & coded by{" "}
-              <span className="text-indigo-400">Ramanath Prabhu V B</span>
+              <span className="text-orange-400">Ramanath Prabhu V B</span>
             </p>
 
             <p>
