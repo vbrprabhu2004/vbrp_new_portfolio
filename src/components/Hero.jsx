@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import vbrp from "../assets/vbrp.jpg";
+import vbrp from "../assets/vbrp_6.png";
 
 function Hero() {
   return (
