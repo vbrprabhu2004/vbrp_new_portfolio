@@ -41,7 +41,7 @@ function Achievements() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-indigo-500 mb-14"
+          className="text-4xl font-bold text-orange-500 mb-14"
         >
           Achievements
         </motion.h2>
@@ -53,9 +53,9 @@ function Achievements() {
             <motion.div
               key={index}
               whileHover={{ scale: 1.04 }}
-              className="bg-[#111827] border border-gray-800 rounded-xl p-6 shadow-md hover:border-indigo-500 transition"
+              className="bg-[#111827] border border-gray-800 rounded-xl p-6 shadow-md hover:border-orange-500 transition"
             >
-              <div className="text-indigo-400 mb-3">
+              <div className="text-orange-400 mb-3">
                 <FaTrophy size={26} />
               </div>
 
