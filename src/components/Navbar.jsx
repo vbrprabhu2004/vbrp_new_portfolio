@@ -13,7 +13,7 @@ function Navbar() {
         {/* Logo */}
         <a
           href="#home"
-          className="text-xl font-bold text-indigo-500"
+          className="text-xl font-bold text-orange-500"
         >
           Ramanath Prabhu V B 
         </a>
@@ -22,44 +22,44 @@ function Navbar() {
         <ul className="hidden md:flex gap-6 text-gray-300">
 
           <li>
-            <a href="#about" className="hover:text-indigo-400">
+            <a href="#about" className="hover:text-orange-400">
               About
             </a>
           </li>
 
           {/* Education */}
           <li>
-            <a href="#education" className="hover:text-indigo-400">
+            <a href="#education" className="hover:text-orange-400">
               Education
             </a>
           </li>
 
           <li>
-            <a href="#skills" className="hover:text-indigo-400">
+            <a href="#skills" className="hover:text-orange-400">
               Skills
             </a>
           </li>
 
           <li>
-            <a href="#projects" className="hover:text-indigo-400">
+            <a href="#projects" className="hover:text-orange-400">
               Projects
             </a>
           </li>
 
           <li>
-            <a href="#experience" className="hover:text-indigo-400">
+            <a href="#experience" className="hover:text-orange-400">
               Experience
             </a>
           </li>
 
           <li>
-            <a href="#responsibilities" className="hover:text-indigo-400">
+            <a href="#responsibilities" className="hover:text-orange-400">
               Responsibilities
             </a>
           </li>
 
           <li>
-            <a href="#achievements" className="hover:text-indigo-400">
+            <a href="#achievements" className="hover:text-orange-400">
               Achievements
             </a>
           </li>
@@ -74,7 +74,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="hover:text-indigo-400" />
+            <FaGithub className="hover:text-orange-400" />
           </a>
 
           <a
@@ -82,7 +82,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="hover:text-indigo-400" />
+            <FaLinkedin className="hover:text-orange-400" />
           </a>
 
           <a
@@ -90,7 +90,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="hover:text-indigo-400" />
+            <FaInstagram className="hover:text-orange-400" />
           </a>
 
           <a
@@ -98,7 +98,7 @@ function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaEnvelope className="hover:text-indigo-400" />
+            <FaEnvelope className="hover:text-orange-400" />
           </a>
 
         </div>
