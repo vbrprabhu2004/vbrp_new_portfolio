@@ -3,22 +3,22 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const inspirations = [
   {
-    name: "Kobe Bryant",
-    quote: "Job finished? I don’t think so.",
+    name: "Mario Puzo (The Godfather, 1969)",
+    quote: "A man who doesn't spend time with his family can never be a real man.",
     note:
-      "I believe growth never stops. I keep learning, building, and improving until I create impactful technology for the world.",
+      "No achievement is complete without the people who stand by you. Family keeps me grounded and reminds me of what truly matters.",
   },
   {
-    name: "Stephen Curry",
-    quote: "Success is not an accident, success is actually a choice.",
+    name: "Mother Teresa",
+    quote: "God doesn't require us to succeed, He only requires that you try.",
     note:
-      "Consistency, discipline, and daily effort shape my approach to learning Full Stack and AI development.",
+      "I focus on giving my best every day and trust God with the results.",
   },
   {
-    name: "Michael Jordan",
-    quote: "I've failed over and over again in my life. And that is why I succeed.",
+    name: "Joseph Kosinski (F1 : The Movie, 2025)",
+    quote: "For what it's worth, don't be shitty to yourself. There's plenty of people out there that'll do that for you.",
     note:
-      "Failures are part of innovation. I use them as stepping stones toward building meaningful solutions.",
+      "A reminder to be patient with myself, learn from mistakes, and keep moving forward instead of being my own biggest critic.",
   },
 ];
 
@@ -35,7 +35,7 @@ function Inspiration() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-indigo-500 mb-14"
+          className="text-4xl font-bold text-orange-500 mb-14"
         >
           Mindset & Inspiration
         </motion.h2>
@@ -47,15 +47,15 @@ function Inspiration() {
             <motion.div
               key={index}
               whileHover={{ scale: 1.04 }}
-              className="bg-[#111827] border border-gray-800 rounded-xl p-6 hover:border-indigo-500 transition"
+              className="bg-[#111827] border border-gray-800 rounded-xl p-6 hover:border-orange-500 transition"
             >
-              <FaQuoteLeft className="text-indigo-400 mb-4" />
+              <FaQuoteLeft className="text-orange-400 mb-4" />
 
               <p className="text-gray-300 italic">
                 "{item.quote}"
               </p>
 
-              <p className="mt-4 text-indigo-400 font-semibold">
+              <p className="mt-4 text-orange-400 font-semibold">
                 — {item.name}
               </p>
 
