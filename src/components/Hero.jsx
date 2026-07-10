@@ -46,7 +46,7 @@ function Hero() {
             </a>
 
             <a
-              href="/VBRP Resume 5.0.pdf"
+              href="/VBRP Resume 6.0 1.pdf"
               download
               className="px-6 py-3 border border-gray-500 rounded-lg hover:border-indigo-400 transition"
             >
