@@ -14,7 +14,7 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl font-bold text-indigo-500 mb-6">
+          <h2 className="text-4xl font-bold text-orange-500 mb-6">
             About Me
           </h2>
 
@@ -38,8 +38,8 @@ function About() {
           transition={{ duration: 0.8 }}
           className="grid grid-cols-2 gap-6"
         >
-          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-indigo-500 transition">
-            <h3 className="text-indigo-400 font-semibold">
+          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-orange-500 transition">
+            <h3 className="text-orange-400 font-semibold">
               💼 What I Do
             </h3>
             <p className="text-gray-400 text-sm mt-2">
@@ -47,8 +47,8 @@ function About() {
             </p>
           </div>
 
-          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-indigo-500 transition">
-            <h3 className="text-indigo-400 font-semibold">
+          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-orange-500 transition">
+            <h3 className="text-orange-400 font-semibold">
               🧠 Interests
             </h3>
             <p className="text-gray-400 text-sm mt-2">
@@ -56,8 +56,8 @@ function About() {
             </p>
           </div>
 
-          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-indigo-500 transition">
-            <h3 className="text-indigo-400 font-semibold">
+          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-orange-500 transition">
+            <h3 className="text-orange-400 font-semibold">
               🌱 Learning
             </h3>
             <p className="text-gray-400 text-sm mt-2">
@@ -65,8 +65,8 @@ function About() {
             </p>
           </div>
 
-          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-indigo-500 transition">
-            <h3 className="text-indigo-400 font-semibold">
+          <div className="bg-[#111827] p-6 rounded-xl border border-gray-800 hover:border-orange-500 transition">
+            <h3 className="text-orange-400 font-semibold">
               🤝 Values
             </h3>
             <p className="text-gray-400 text-sm mt-2">
