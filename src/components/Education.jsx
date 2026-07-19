@@ -7,8 +7,8 @@ import evpsLogo from "../assets/projects/evps.jpg";
 
 const education = [
   {
-    title: "Bachelor of Engineering",
-    subtitle: "Computer Science and Engineering",
+    title: "Bachelor of Engineering (B.E.)",
+    subtitle: "Computer Science and Engineering (CSE)",
     institution: "Madras Institute of Technology (MIT), Anna University, Chennai",
     duration: "2022 - 2026",
     logo: mitLogo,
