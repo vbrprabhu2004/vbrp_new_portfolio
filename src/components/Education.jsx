@@ -7,9 +7,10 @@ import evpsLogo from "../assets/projects/evps.jpg";
 
 const education = [
   {
-    title: "Bachelor of Engineering (B.E.)",
-    subtitle: "Computer Science and Engineering (CSE)",
-    institution: "Madras Institute of Technology (MIT), Anna University, Chennai",
+    title: "Bachelor of Engineering",
+    subtitle: "Computer Science and Engineering",
+    institution: "Madras Institute of Technology (MIT), Anna University",
+    location: "Chennai, Tamil Nadu, India"
     duration: "2022 - 2026",
     logo: mitLogo,
     icon: <FaGraduationCap size={22} />,
@@ -17,7 +18,8 @@ const education = [
   {
     title: "Std 12 (State Board)",
     subtitle: "Higher Secondary Education",
-    institution: "Green Park Matriculation Higher Secondary School, Namakkal",
+    institution: "Green Park Matriculation Higher Secondary School",
+    location: "Namakkal, Tamil Nadu, India"
     duration: "2020 - 2022",
     logo: gpLogo,
     icon: <FaSchool size={22} />,
@@ -25,7 +27,8 @@ const education = [
   {
     title: "Std 10 (CBSE)",
     subtitle: "Secondary Education",
-    institution: "Emerald Valley Public School, Salem",
+    institution: "Emerald Valley Public School",
+    location: "Salem, Tamil Nadu, India"
     duration: "2019 - 2020",
     logo: evpsLogo,
     icon: <FaSchool size={22} />,
@@ -92,13 +95,17 @@ function Education() {
                     <h3 className="text-2xl font-semibold">
                       {item.title}
                     </h3>
-
+                    
                     <p className="text-orange-400 mt-1">
                       {item.subtitle}
                     </p>
 
                     <p className="text-gray-300 mt-3 leading-relaxed">
                       {item.institution}
+                    </p>
+
+                     <p className="text-gray-300 mt-3">
+                      {item.location}
                     </p>
 
                     <p className="text-gray-500 mt-2">
