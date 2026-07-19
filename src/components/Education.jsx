@@ -15,7 +15,7 @@ const education = [
     icon: <FaGraduationCap size={22} />,
   },
   {
-    title: "Std 12",
+    title: "Std 12 (State Board)",
     subtitle: "Higher Secondary Education",
     institution: "Green Park Matriculation Higher Secondary School, Namakkal",
     duration: "2020 - 2022",
@@ -23,7 +23,7 @@ const education = [
     icon: <FaSchool size={22} />,
   },
   {
-    title: "Std 10",
+    title: "Std 10 (CBSE)",
     subtitle: "Secondary Education",
     institution: "Emerald Valley Public School, Salem",
     duration: "2019 - 2020",
