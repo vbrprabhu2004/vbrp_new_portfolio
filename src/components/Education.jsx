@@ -97,11 +97,11 @@ function Education() {
                       {item.subtitle}
                     </p>
 
-                    <p className="text-orange-400 mt-3 leading-relaxed">
+                    <p className="text-orange-400 mt-2 leading-relaxed">
                       {item.institution}
                     </p>
 
-                    <p className="text-gray-500 mt-2">
+                    <p className="text-gray-500 mt-3">
                       {item.duration}
                     </p>
 
