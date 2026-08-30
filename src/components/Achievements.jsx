@@ -63,7 +63,7 @@ function Achievements() {
                 {item.title}
               </h3>
 
-              <p className="text-orange-300 mt-2">
+              <p className="text-orange-400 mt-2">
                 {item.place}
               </p>
 
