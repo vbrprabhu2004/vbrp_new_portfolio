@@ -51,7 +51,7 @@ function Inspiration() {
             >
               <FaQuoteLeft className="text-orange-400 mb-4" />
 
-              <p className="text-gray-300 italic">
+              <p className="text-gray-200 italic">
                 "{item.quote}"
               </p>
 
@@ -59,7 +59,7 @@ function Inspiration() {
                 — {item.name}
               </p>
 
-              <p className="text-gray-400 text-sm mt-3 leading-relaxed">
+              <p className="text-gray-300 text-sm mt-3 leading-relaxed">
                 {item.note}
               </p>
             </motion.div>
