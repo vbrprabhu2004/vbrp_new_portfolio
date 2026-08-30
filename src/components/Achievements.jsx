@@ -22,9 +22,9 @@ const achievements = [
   },
   {
     title: "Voluntary Blood Donor – Blood Donation Camp 2025",
-    place: "Department of Transfusion Medicine, Rela Hospital, Chromepet, Chennai",
+    place: "Rela Hospital, Chromepet, Chennai",
     description:
-      "I’m honored to have received a Certificate of Appreciation for donating blood — a small act that can make a life-saving difference — at the Voluntary Blood Donation Camp organized by the Department of Transfusion Medicine, Rela Hospital, Chromepet, Chennai.",
+      "I’m honored to have received a Certificate of Appreciation for donating blood — a small act that can make a life-saving difference — at the Voluntary Blood Donation Camp organized by the Rela Hospital, Chromepet, Chennai.",
   },
 ];
 
@@ -63,11 +63,11 @@ function Achievements() {
                 {item.title}
               </h3>
 
-              <p className="text-gray-400 mt-1">
+              <p className="text-gray-300 mt-2">
                 {item.place}
               </p>
 
-              <p className="text-gray-400 mt-3 text-sm leading-relaxed">
+              <p className="text-gray-300 mt-2 text-sm leading-relaxed">
                 {item.description}
               </p>
             </motion.div>
