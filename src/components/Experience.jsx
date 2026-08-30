@@ -11,8 +11,8 @@ const experiences = [
     company: "Deloitte US India",
     duration: "Nov 2026 – Present",
     location: "Hyderabad, Telangana, India",
-    //description:
-    //  "",
+    description:
+      "",
     logo: deloitteLogo,
     icon: <FaBriefcase size={22} />,
   },*/
