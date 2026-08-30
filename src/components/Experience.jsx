@@ -97,11 +97,11 @@ function Experience() {
                       {exp.role}
                     </h3>
 
-                    <p className="text-orange-400 mt-1">
+                    <p className="text-orange-400 mt-2">
                       {exp.company}
                     </p>
 
-                    <p className="text-gray-300 mt-3">
+                    <p className="text-gray-300 mt-2">
                       {exp.location}
                     </p>
 
@@ -109,7 +109,7 @@ function Experience() {
                       {exp.duration}
                     </p>
 
-                    <p className="text-gray-300 mt-4 leading-relaxed">
+                    <p className="text-gray-300 mt-3 leading-relaxed">
                       {exp.description}
                     </p>
 
