@@ -105,7 +105,7 @@ function Experience() {
                       {exp.location}
                     </p>
 
-                    <p className="text-gray-300 mt-2">
+                    <p className="text-orange-400 mt-2">
                       {exp.duration}
                     </p>
 
