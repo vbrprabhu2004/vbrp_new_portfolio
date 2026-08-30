@@ -7,7 +7,7 @@ import evpsLogo from "../assets/projects/evps.jpg";
 
 const education = [
   {
-    title: "B.E. – Computer Science and Engineering",
+    title: "B.E. – Computer Science & Engineering",
     subtitle: "Undergraduate Education",
     institution: "Madras Institute of Technology (MIT), Anna University, Chennai",
     duration: "2022 - 2026",
@@ -93,11 +93,11 @@ function Education() {
                       {item.title}
                     </h3>
 
-                    <p className="text-orange-400 mt-1">
+                    <p className="text-gray-300 mt-1">
                       {item.subtitle}
                     </p>
 
-                    <p className="text-gray-300 mt-3 leading-relaxed">
+                    <p className="text-orange-400 mt-3 leading-relaxed">
                       {item.institution}
                     </p>
 
