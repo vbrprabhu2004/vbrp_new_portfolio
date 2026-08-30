@@ -12,6 +12,7 @@ const education = [
     institution: "Madras Institute of Technology (MIT), Anna University",
     location: "Chennai, Tamil Nadu, India",
     duration: "2022 - 2026",
+    percentage: "CGPA : 8.27 / 10",
     logo: mitLogo,
     icon: <FaGraduationCap size={22} />,
   },
@@ -20,7 +21,8 @@ const education = [
     subtitle: "Higher Secondary Education",
     institution: "Green Park Matriculation Higher Secondary School",
     location: "Namakkal, Tamil Nadu, India",
-    duration: "2020 - 2022",
+    duration: "2021 - 2022",
+    percentage: "Percentage : 92.8 / 100",
     logo: gpLogo,
     icon: <FaSchool size={22} />,
   },
@@ -30,6 +32,7 @@ const education = [
     institution: "Emerald Valley Public School",
     location: "Salem, Tamil Nadu, India",
     duration: "2019 - 2020",
+    percentage: "Percentage : 91.2 / 100",
     logo: evpsLogo,
     icon: <FaSchool size={22} />,
   },
@@ -110,6 +113,10 @@ function Education() {
 
                     <p className="text-gray-300 mt-4">
                       {item.duration}
+                    </p>
+
+                    <p className="text-orange-400 mt-5 leading-relaxed">
+                      {item.percentage}
                     </p>
 
                   </div>
