@@ -9,7 +9,8 @@ const education = [
   {
     title: "B.E. – Computer Science & Engineering",
     subtitle: "Undergraduate Education",
-    institution: "Madras Institute of Technology (MIT), Anna University, Chennai",
+    institution: "Madras Institute of Technology (MIT), Anna University",
+    location: "Chennai, Tamil Nadu, India",
     duration: "2022 - 2026",
     logo: mitLogo,
     icon: <FaGraduationCap size={22} />,
@@ -17,7 +18,8 @@ const education = [
   {
     title: "Std 12",
     subtitle: "Higher Secondary Education",
-    institution: "Green Park Matriculation Higher Secondary School, Namakkal",
+    institution: "Green Park Matriculation Higher Secondary School",
+    location: "Namakkal, Tamil Nadu, India",
     duration: "2020 - 2022",
     logo: gpLogo,
     icon: <FaSchool size={22} />,
@@ -25,7 +27,8 @@ const education = [
   {
     title: "Std 10",
     subtitle: "Secondary Education",
-    institution: "Emerald Valley Public School, Salem",
+    institution: "Emerald Valley Public School",
+    location: "Salem, Tamil Nadu, India",
     duration: "2019 - 2020",
     logo: evpsLogo,
     icon: <FaSchool size={22} />,
@@ -101,7 +104,11 @@ function Education() {
                       {item.institution}
                     </p>
 
-                    <p className="text-gray-500 mt-3">
+                    <p className="text-gray-300 mt-3">
+                      {item.location}
+                    </p>
+
+                    <p className="text-gray-300 mt-4">
                       {item.duration}
                     </p>
 
