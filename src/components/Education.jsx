@@ -99,7 +99,7 @@ function Education() {
                       {item.title}
                     </h3>
 
-                    <p className="text-gray-300 mt-1">
+                    <p className="text-gray-300 mt-2">
                       {item.subtitle}
                     </p>
 
@@ -107,15 +107,15 @@ function Education() {
                       {item.institution}
                     </p>
 
-                    <p className="text-gray-300 mt-3">
+                    <p className="text-gray-300 mt-2">
                       {item.location}
                     </p>
 
-                    <p className="text-gray-300 mt-4">
+                    <p className="text-gray-300 mt-2">
                       {item.duration}
                     </p>
 
-                    <p className="text-orange-400 mt-5 leading-relaxed">
+                    <p className="text-orange-400 mt-2 leading-relaxed">
                       {item.percentage}
                     </p>
 
