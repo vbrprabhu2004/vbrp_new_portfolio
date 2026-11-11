@@ -8,7 +8,7 @@ import nicLogo from "../assets/projects/nic.jpg";
 const experiences = [
   {
     role: "Analyst",
-    company: "Deloitte US India",
+    company: "Deloitte USI",
     duration: "Nov 2026 – Present",
     location: "Hyderabad, Telangana, India",
     description:
